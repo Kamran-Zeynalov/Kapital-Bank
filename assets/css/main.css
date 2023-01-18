@@ -1,0 +1,280 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top .container .row {
+  height: 70px;
+  align-items: center;
+}
+.top .container .row .top-menu ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.top .container .row .top-menu ul li {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 12px;
+}
+.top .container .row .top-menu ul li a {
+  color: black;
+  text-decoration: none;
+}
+.top .container .row .top-menu ul li a i {
+  color: #f45369;
+  padding: 5px;
+}
+.top .container .row .top-menu ul li:nth-child(6) {
+  border: 1px solid #f45369;
+  border-radius: 5px;
+}
+.top .container .row .bank-menu .bank {
+  width: 35px;
+  height: 35px;
+  border-radius: 7px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f45369;
+}
+.top .container .row .bank-menu .bank img {
+  width: 22px;
+}
+.top .container .row .bank-menu .menu-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f45369;
+}
+.top .container .row .bank-menu .menu-icon i {
+  color: white;
+}
+
+.bottom {
+  background-color: #e8ecf1;
+}
+.bottom .container .row {
+  height: 70px;
+}
+.bottom .container .row .down-menu ul {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.bottom .container .row .down-menu ul li {
+  padding: 24.5px 9px;
+  list-style: none;
+  font-size: 13px;
+  transition: 0.1s;
+}
+.bottom .container .row .down-menu ul li:hover {
+  border-bottom: 3px solid #f45369;
+}
+.bottom .container .row .down-menu ul li a {
+  color: black;
+  text-decoration: none;
+}
+.bottom .container .row .button {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.bottom .container .row .button .btn button {
+  border: none;
+  background-color: #f45369;
+  color: white;
+  border-radius: 5px;
+  padding: 4px 10px;
+  font-size: 15px;
+}
+.bottom .container .row .button .btn button:hover {
+  background-color: #eb0b29;
+}
+
+#Sticky {
+  position: relative;
+}
+#Sticky .saqqiz {
+  position: fixed;
+  right: 40px;
+  bottom: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e8ecf1;
+  box-shadow: 4px 5px 4px gray;
+  transition: 0.3s;
+}
+#Sticky .saqqiz:hover {
+  width: 65px;
+  height: 65px;
+  right: 35px;
+  bottom: 25px;
+}
+#Sticky .saqqiz:hover img {
+  width: 65%;
+  margin: 12px;
+}
+#Sticky .saqqiz img {
+  transition: 0.3s;
+  width: 60%;
+  margin: 14px;
+}
+
+#Cards .container .row .title-button {
+  margin-top: 20px;
+}
+#Cards .container .row .title-button .buttons {
+  margin: 30px 0;
+}
+#Cards .container .row .title-button .buttons ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#Cards .container .row .title-button .buttons ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+#Cards .container .row .title-button .buttons ul li .firstBtn {
+  background-color: #f45369;
+  color: white;
+}
+#Cards .container .row .title-button .buttons ul li button {
+  padding: 5px 20px;
+  border: none;
+  background-color: #e8ecf1;
+  color: black;
+  border-radius: 20px;
+}
+#Cards .container .row .title-button .buttons ul li button:active {
+  background-color: #f45369;
+  color: white;
+}
+#Cards .container .row .popularCard {
+  background-color: #f9fafb;
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+}
+#Cards .container .row .popularCard .debitCard {
+  padding: 70px 50px 30px;
+}
+#Cards .container .row .popularCard .debitCard .card-image img {
+  width: 80%;
+}
+#Cards .container .row .popularCard .debitCard .card-info .title h3 {
+  font-size: 18px;
+  color: #ff0023;
+  padding-bottom: 12px;
+}
+#Cards .container .row .popularCard .debitCard .card-info .about {
+  padding-top: 18px;
+}
+#Cards .container .row .popularCard .debitCard .card-info .about .row .free {
+  margin-bottom: 15px;
+}
+#Cards .container .row .popularCard .debitCard .card-info .about .row .free h4 {
+  font-weight: 400;
+}
+#Cards .container .row .popularCard .debitCard .card-info .button-more .buttons button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #f45369;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+#Cards .container .row .popularCard .debitCard .card-info .button-more .more {
+  display: flex;
+  align-items: center;
+}
+#Cards .container .row .popularCard .debitCard .card-info .button-more .more h5 {
+  font-weight: 400;
+  font-size: 16px;
+}
+#Cards .container .row .popularCard .debitCard .card-info .button-more .more h5 a {
+  color: black;
+  text-decoration: none;
+}
+
+#Installment .container {
+  margin-top: 40px;
+}
+#Installment .container .allCards {
+  padding: 50px;
+}
+#Installment .container .allCards .bank-cards .card {
+  background-color: #f9fafb;
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+  padding: 30px 30px 0 30px;
+  margin-bottom: 70px;
+}
+#Installment .container .allCards .bank-cards .card .image {
+  width: 80px;
+  height: 50px;
+  margin-bottom: 40px;
+}
+#Installment .container .allCards .bank-cards .card .image img {
+  width: 225px;
+  height: 141px;
+  position: relative;
+  top: -60px;
+}
+#Installment .container .allCards .bank-cards .card .name {
+  padding-top: 12px;
+}
+#Installment .container .allCards .bank-cards .card .name h5 {
+  font-size: 19px;
+}
+#Installment .container .allCards .bank-cards .card .info {
+  margin-left: 18px;
+}
+#Installment .container .allCards .bank-cards .card .info ul {
+  list-style: none;
+}
+#Installment .container .allCards .bank-cards .card .info ul li {
+  font-size: 12px;
+}
+#Installment .container .allCards .bank-cards .card .info ul li::before {
+  content: "•";
+  color: #f45369;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+#Installment .container .allCards .bank-cards .card .buttons {
+  width: 100%;
+  padding: 12px;
+}
+#Installment .container .allCards .bank-cards .card .buttons .order {
+  color: #f45369;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s;
+}
+#Installment .container .allCards .bank-cards .card .buttons .order:hover {
+  background-color: #f45369;
+  color: white;
+}
+#Installment .container .allCards .bank-cards .card .buttons .more {
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s;
+}
+#Installment .container .allCards .bank-cards .card .buttons .more:hover {
+  background-color: #f45369;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

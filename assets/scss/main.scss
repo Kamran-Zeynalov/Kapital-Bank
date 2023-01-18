@@ -1,0 +1,368 @@
+@import "./variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    .container {
+        .row {
+            height: 70px;
+            align-items: center;
+
+            .top-menu {
+                ul {
+                    display: flex;
+                    flex-wrap: nowrap;
+
+                    li {
+                        display: inline-block;
+                        padding: 0 10px;
+                        font-size: 12px;
+
+                        a {
+                            color: black;
+                            text-decoration: none;
+
+                            i {
+                                color: $primary-color;
+                                padding: 5px;
+                            }
+                        }
+
+                        &:nth-child(6) {
+                            border: 1px solid $primary-color;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+
+            .bank-menu {
+                .bank {
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 7px;
+                    margin: 0 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $primary-color;
+
+                    img {
+                        width: 22px;
+                    }
+                }
+
+                .menu-icon {
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 7px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $primary-color;
+
+                    i {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bottom {
+    background-color: #e8ecf1;
+
+    .container {
+        .row {
+            height: 70px;
+
+            .down-menu {
+                ul {
+                    height: 70px;
+                    display: flex;
+                    align-items: center;
+
+                    li {
+                        padding: 24.5px 9px;
+                        list-style: none;
+                        font-size: 13px;
+                        transition: .1s;
+
+                        &:hover {
+                            border-bottom: 3px solid $primary-color;
+                        }
+
+                        a {
+                            color: black;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            .button {
+                height: 70px;
+                display: flex;
+                align-items: center;
+
+                .btn {
+                    button {
+                        border: none;
+                        background-color: $primary-color;
+                        color: white;
+                        border-radius: 5px;
+                        padding: 4px 10px;
+                        font-size: 15px;
+
+                        &:hover {
+                            background-color: #eb0b29;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#Sticky {
+    position: relative;
+
+    .saqqiz {
+        position: fixed;
+        right: 40px;
+        bottom: 30px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #e8ecf1;
+        box-shadow: 4px 5px 4px gray;
+        transition: .3s;
+
+        &:hover {
+            width: 65px;
+            height: 65px;
+            right: 35px;
+            bottom: 25px;
+
+            img {
+                width: 65%;
+                margin: 12px;
+            }
+        }
+
+        img {
+            transition: .3s;
+            width: 60%;
+            margin: 14px;
+        }
+    }
+}
+
+#Cards {
+    .container {
+        .row {
+            .title-button {
+                margin-top: 20px;
+
+                .buttons {
+                    margin: 30px 0;
+
+                    ul {
+                        display: flex;
+                        flex-wrap: nowrap;
+
+                        li {
+                            list-style: none;
+                            display: inline-block;
+                            margin-right: 10px;
+
+                            .firstBtn {
+                                background-color: $primary-color;
+                                color: white;
+                            }
+
+                            button {
+                                padding: 5px 20px;
+                                border: none;
+                                background-color: #e8ecf1;
+                                color: black;
+                                border-radius: 20px;
+
+                                &:active {
+                                    background-color: $primary-color;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .popularCard {
+                background-color: #f9fafb;
+                border-radius: 10px;
+                border: 1px solid #eaeaea;
+
+                .debitCard {
+                    padding: 70px 50px 30px;
+
+                    .card-image {
+                        img {
+                            width: 80%;
+                        }
+                    }
+
+                    .card-info {
+                        .title {
+                            h3 {
+                                font-size: 18px;
+                                color: #ff0023;
+                                padding-bottom: 12px;
+                            }
+                        }
+
+                        .about {
+                            padding-top: 18px;
+
+                            .row {
+                                .free {
+                                    margin-bottom: 15px;
+
+                                    h4 {
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                        }
+
+                        .button-more {
+                            .buttons {
+                                button {
+                                    width: 100%;
+                                    padding: 15px;
+                                    border: none;
+                                    border-radius: 6px;
+                                    background-color: $primary-color;
+                                    color: white;
+                                    font-weight: bold;
+                                    font-size: 18px;
+                                    margin-bottom: 12px;
+                                }
+                            }
+
+                            .more {
+                                display: flex;
+                                align-items: center;
+
+                                h5 {
+
+                                    font-weight: 400;
+                                    font-size: 16px;
+
+                                    a {
+                                        color: black;
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#Installment {
+    .container {
+        margin-top: 40px;
+
+        .allCards {
+            padding: 50px;
+
+            .bank-cards {
+                .card {
+                    background-color: #f9fafb;
+                    border-radius: 10px;
+                    border: 1px solid #eaeaea;
+                    padding: 30px 30px 0 30px;
+                    margin-bottom: 70px;
+
+                    .image {
+                        width: 80px;
+                        height: 50px;
+                        margin-bottom: 40px;
+
+                        img {
+                            width: 225px;
+                            height: 141px;
+                            position: relative;
+                            top: -60px;
+                        }
+                    }
+
+                    .name {
+                        padding-top: 12px;
+
+                        h5 {
+                            font-size: 19px;
+                        }
+                    }
+
+                    .info {
+                        margin-left: 18px;
+
+                        ul {
+                            list-style: none;
+
+                            li {
+                                font-size: 12px;
+
+                                &::before {
+                                    content: "\2022";
+                                    color: $primary-color;
+                                    font-weight: bold;
+                                    display: inline-block;
+                                    width: 1em;
+                                    margin-left: -1em;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .buttons{
+                        width: 100%;
+                        padding: 12px;
+                        .order{
+                            color: $primary-color;
+                            font-weight: bold;
+                            border-radius: 10px;
+                            padding: 10px;
+                            transition: .3s;
+                            &:hover{
+                                background-color: $primary-color;
+                                color: white;
+                            }
+                        }
+                        .more{
+                            font-size: 16px;
+                            border-radius: 10px;
+                            padding: 10px;
+                            transition: .3s;
+                            &:hover{
+                                background-color: $primary-color;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
