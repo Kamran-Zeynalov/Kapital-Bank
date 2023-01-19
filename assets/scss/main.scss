@@ -336,28 +336,213 @@
 
                     }
 
-                    .buttons{
+                    .buttons {
                         width: 100%;
                         padding: 12px;
-                        .order{
+
+                        .order {
                             color: $primary-color;
                             font-weight: bold;
                             border-radius: 10px;
                             padding: 10px;
                             transition: .3s;
-                            &:hover{
+
+                            &:hover {
                                 background-color: $primary-color;
                                 color: white;
                             }
                         }
-                        .more{
+
+                        .more {
                             font-size: 16px;
                             border-radius: 10px;
                             padding: 10px;
                             transition: .3s;
-                            &:hover{
+
+                            &:hover {
                                 background-color: $primary-color;
                                 color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#AboutPage {
+    margin-bottom: 30px;
+
+    .container {
+        .row {
+            .text {
+                text-indent: 20px;
+                text-align: center;
+
+                p {
+                    font-size: 11.5px;
+                }
+            }
+
+            .btn {
+                &:nth-child(2) button {
+                    color: $primary-color;
+                }
+
+                button {
+                    padding: 20px 0;
+                    font-size: 13px;
+                    border: none;
+                    background-color: white;
+                    color: gray;
+
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #2e3131;
+
+    .container {
+        .row {
+            .lists {
+                padding: 40px;
+
+                ul {
+                    list-style: none;
+
+                    li {
+                        color: white;
+
+                        h6 {
+                            font-size: 14px;
+                        }
+
+                        button {
+                            border: none;
+                            background-color: #2e3131;
+                            font-size: 12.5px;
+                            color: white;
+                            transition: .4s;
+
+                            &:hover {
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .applications {
+                padding: 40px;
+                text-align: center;
+
+                .caption {
+                    h6 {
+                        color: white;
+                    }
+                }
+
+                .qrCode {
+                    img {
+                        padding: 20px;
+                    }
+                }
+
+                .store {
+                    .app {
+                        display: flex;
+                        padding: 8px;
+                        margin: 20px;
+                        height: 55px;
+                        border: none;
+                        border-radius: 8px;
+
+                        .image {
+                            width: 5px;
+                        }
+                    }
+
+                    .appName {
+                        h6 {
+                            font-size: 12px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            margin-left: 30px;
+                        }
+                    }
+                }
+            }
+
+            .container {
+                .contact {
+                    .telAndApps {
+                        .icons {
+                            ul {
+                                display: flex;
+                                list-style: none;
+
+                                li {
+                                    color: white;
+                                    margin: 30px 13px;
+                                    padding: 5px;
+                                    font-size: 18px;
+
+                                    &:nth-child(1) {
+                                        border: 1px solid $primary-color;
+                                        border-radius: 10px;
+                                    }
+
+                                    &:nth-child(1) a i {
+                                        color: $primary-color;
+                                        padding-right: 5px;
+                                        font-weight: bold;
+                                    }
+
+                                    &:nth-child(1) a {
+                                        font-weight: bold;
+                                    }
+
+                                    a {
+                                        color: white;
+                                        text-decoration: none;
+                                    }
+
+                                    a:hover {
+                                        color: #eb0b29;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .row {
+                    align-items: center;
+
+                    .bottomLeft {
+                        p {
+                            color: white;
+                        }
+                    }
+
+                    .bottomRight {
+                        img {
+                            padding: 0 20px;
+                            width: 120px;
+
+
+                            &:nth-child(3){
+                                width: 100px;
+                            }
+
+                            &:nth-child(4){
+                                width: 250px;
                             }
                         }
                     }

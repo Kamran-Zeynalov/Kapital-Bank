@@ -277,4 +277,124 @@
 #Installment .container .allCards .bank-cards .card .buttons .more:hover {
   background-color: #f45369;
   color: white;
+}
+
+#AboutPage {
+  margin-bottom: 30px;
+}
+#AboutPage .container .row .text {
+  text-indent: 20px;
+  text-align: center;
+}
+#AboutPage .container .row .text p {
+  font-size: 11.5px;
+}
+#AboutPage .container .row .btn:nth-child(2) button {
+  color: #f45369;
+}
+#AboutPage .container .row .btn button {
+  padding: 20px 0;
+  font-size: 13px;
+  border: none;
+  background-color: white;
+  color: gray;
+}
+
+footer {
+  background-color: #2e3131;
+}
+footer .container .row .lists {
+  padding: 40px;
+}
+footer .container .row .lists ul {
+  list-style: none;
+}
+footer .container .row .lists ul li {
+  color: white;
+}
+footer .container .row .lists ul li h6 {
+  font-size: 14px;
+}
+footer .container .row .lists ul li button {
+  border: none;
+  background-color: #2e3131;
+  font-size: 12.5px;
+  color: white;
+  transition: 0.4s;
+}
+footer .container .row .lists ul li button:hover {
+  color: #f45369;
+}
+footer .container .row .applications {
+  padding: 40px;
+  text-align: center;
+}
+footer .container .row .applications .caption h6 {
+  color: white;
+}
+footer .container .row .applications .qrCode img {
+  padding: 20px;
+}
+footer .container .row .applications .store .app {
+  display: flex;
+  padding: 8px;
+  margin: 20px;
+  height: 55px;
+  border: none;
+  border-radius: 8px;
+}
+footer .container .row .applications .store .app .image {
+  width: 5px;
+}
+footer .container .row .applications .store .appName h6 {
+  font-size: 12px;
+}
+footer .container .row .applications .store .appName p {
+  font-size: 12px;
+  margin-left: 30px;
+}
+footer .container .row .container .contact .telAndApps .icons ul {
+  display: flex;
+  list-style: none;
+}
+footer .container .row .container .contact .telAndApps .icons ul li {
+  color: white;
+  margin: 30px 13px;
+  padding: 5px;
+  font-size: 18px;
+}
+footer .container .row .container .contact .telAndApps .icons ul li:nth-child(1) {
+  border: 1px solid #f45369;
+  border-radius: 10px;
+}
+footer .container .row .container .contact .telAndApps .icons ul li:nth-child(1) a i {
+  color: #f45369;
+  padding-right: 5px;
+  font-weight: bold;
+}
+footer .container .row .container .contact .telAndApps .icons ul li:nth-child(1) a {
+  font-weight: bold;
+}
+footer .container .row .container .contact .telAndApps .icons ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer .container .row .container .contact .telAndApps .icons ul li a:hover {
+  color: #eb0b29;
+}
+footer .container .row .container .row {
+  align-items: center;
+}
+footer .container .row .container .row .bottomLeft p {
+  color: white;
+}
+footer .container .row .container .row .bottomRight img {
+  padding: 0 20px;
+  width: 120px;
+}
+footer .container .row .container .row .bottomRight img:nth-child(3) {
+  width: 100px;
+}
+footer .container .row .container .row .bottomRight img:nth-child(4) {
+  width: 250px;
 }/*# sourceMappingURL=main.css.map */
